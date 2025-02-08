@@ -108,6 +108,14 @@ curl -X POST \
   "extracted_data": "Professional Email\n\nYour Street Address\nYour City,\nState Zip\n...\nSincerely yours,\nA. Student"
 }
 ```
+## Model Details
+
+This document classification model is built using **PyTorch** and is designed to classify documents into **Invoice, Handwritten, and Email** categories.
+
+### Techniques & Algorithms Used
+1. **Convolutional Neural Network (CNN)** – The model utilizes CNN-based deep learning architecture to extract features from images.
+2. **Transfer Learning** – A pre-trained model (e.g., ResNet, VGG) was fine-tuned on the document dataset to improve classification accuracy.
+3. **Data Augmentation** – Techniques like resizing and normalization were used to enhance model generalization.
 
 ## Notes
 
